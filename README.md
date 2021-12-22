@@ -56,16 +56,20 @@ $standards key is IV  in [+25% of call,-25% of put]
 $smile, term structure, surface, skew
 
 Chapter 9: No-Arbitrage Bound on the Smile
+
 $constraints on options
 $merton inequalities
 $inequalities for slope of smile: butterfly,C(K-dK)-2C(K)+C(K+dK)>=0
+
 -no arbitrage bounds of smile
 
 
 Chapter 10: A Survey of Smile Models
+
 -problems  caused by the smile
 -valuing exotic options
 -hedging vanilla options
+
 $overview of smile-consistent models
 $local volatility models, stochastic volatility models, jump diffusion
 $presence of smile=>incorrect

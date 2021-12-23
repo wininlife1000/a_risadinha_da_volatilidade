@@ -91,6 +91,23 @@ $exotic ~= portfolio zero coupon bond, a forward, euro-option portfolio
 
 Chapter 12:
 
+$dynanmic replication expenses
+$weak static replication better
+$weights depend on model
+$portfolio unwound with option
+$there is no unique static hedge
+
+1. replicate security
+2. BSM impractical
+3. IV hedging strict; future Real Vol. is "flighty"
+4. BSM unrealistic
+5. strong replication of euro options
+
+-weak static replication
+-insights to barrier options
+-another approach  : static replication up and out call
+-Phi((log(B/S)+0.5*T*sigma**2)/(sigma*sqrt(T))) - alpha * Phi((log(S/B)+0.5*T*sigma**2)/(sigma*sqrt(T))) = 0
+
 
 Chapter 13:
 
@@ -99,10 +116,15 @@ Chapter 14:
 
 
 Chapter 15:
+
 -Dupire's Equation: p(S,t,K,T)=e**(r*(T-r*t))*der(der(C'(K)))/der(der(K**2))
 -Binomial Derivation
 -Formal Dupire
 -Local vs. Implied
+
+$Dupire Equation sigma(K,T) ~= local volatility from T,K
+$infinity spread, calendar spread
+$one calculates local from implied
 
 Chapter 16:
 

@@ -57,11 +57,11 @@ $smile, term structure, surface, skew
 
 Chapter 9: No-Arbitrage Bound on the Smile
 
+-no arbitrage bounds of smile
+
 $constraints on options
 $merton inequalities
 $inequalities for slope of smile: butterfly,C(K-dK)-2C(K)+C(K+dK)>=0
-
--no arbitrage bounds of smile
 
 
 Chapter 10: A Survey of Smile Models
@@ -74,6 +74,36 @@ $overview of smile-consistent models
 $local volatility models, stochastic volatility models, jump diffusion
 $presence of smile=>incorrect
 
+Chapter 11: Implied Distributions & Static Replication
 
+-implied distributions from stateful security
+-Breeden-Litzenberger
+-static replication of fixed expiry implied distributions
+-BSM risk neutral distribution.
+
+
+
+$euro price calculation of IV dist.
+$butterfly spreads beget implied density
+$exotic ~= portfolio zero coupon bond, a forward, euro-option portfolio
+
+
+
+Chapter 12:
+
+
+Chapter 13:
+
+
+Chapter 14:
+
+
+Chapter 15:
+-Dupire's Equation: p(S,t,K,T)=e**(r*(T-r*t))*der(der(C'(K)))/der(der(K**2))
+-Binomial Derivation
+-Formal Dupire
+-Local vs. Implied
+
+Chapter 16:
 
 

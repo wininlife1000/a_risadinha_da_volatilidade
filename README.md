@@ -106,14 +106,29 @@ $there is no unique static hedge
 -weak static replication
 -insights to barrier options
 -another approach  : static replication up and out call
--Phi((log(B/S)+0.5*T*sigma**2)/(sigma*sqrt(T))) - alpha * Phi((log(S/B)+0.5*T*sigma**2)/(sigma*sqrt(T))) = 0
+-Phi((log(B/S)+0.5*T*sigma**2)/(sigma*sqrt(T))) - alpha * Phi((log(S/B)+0.5*T*sigma**2)/(sigma*sqrt(T))) = 0;
 
 
-Chapter 13:
+Chapter 13: Binomial Model Etc.
+
+-binomial evlaution  (Cox-Russ-Rubenstein), (Jarmow-Rudd)
+-extend BSM
+
+$binomial frame
+$binomial model
+$BSM  equivalence
+$extend binomial generality
 
 
 Chapter 14:
 
+-modeling variable volatility: Sigma_squared(t,T)=(1/(T-t))*integral(sigma_squared(s),t,T)
+-binomial local volatility modeling
+-relationship between local, implied
+
+$instantaneous stock volatility
+$variable local volatility
+$BSM IV with local averaging
 
 Chapter 15:
 
